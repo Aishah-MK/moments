@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	width: 100%
+}
+img{
+	max-width: 100%;
+	text-align: left;
+}
+.root{
+	width: 100%;
+}
+.wallpaper{
+	/*height: 210px;*/
+	position: relative;
+	z-index: -1;
+	width: 100%;
+}
+.mine{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	align-item:center;
+	float: right;
+	z-index: 1000;
+	margin-top: -18.2vw;/*-64px*/
+	margin-right: 3.4vw;/*12px*/
+}
+.mine p{
+	font-size: 4vw;/*16px*/
+	color: #ffffff;
+	text-shadow:0.28vw 0.28vw 0.28vw rgba(000,000,000,0.7);/*1px*/
+	margin-right: 3.4vw;/*12px*/ 
+	line-height: 15vw;
+}
+.mine img{
+	height: 13.7vw;/*48px*/
+	width: 13.7vw;
+	border: 0.28vw solid #fff;/*1px*/
+	border-radius: 1.14vw;/*4px*/
+	padding: 0;
+}
+.headPortrait{
+	height: 11.4vw;/*40px*/
+	width: 11.4vw;
+	margin: 4.57vw 0 0 4.57vw; /*16px*/
+}
+.image{
+	height: 49.1vw;
+	width: 49.1vw;
+	margin: 2.28vw 0 3.4vw;/*8px  12px*/
+}
+.time{
+	font-size: 3.4vw;/*12px*/
+	color: #acb187;
+}
+.friendName{
+	font-size: 4.2vw;/*15px*/
+	color: #41454d;
+	font-weight: bold;
+	margin-bottom: 0.57vw;/*2px*/
+}
+.detail{
+	font-size: 4vw;/*14px*/
+	color: #41454d;
+}
+.review{
+	list-style: none;
+	padding-left: 0;
+}
+.review li{
+	font-size: 4vw;/*14px*/
+	color: #41454d;
+	margin: 1.14px;/*4px*/
+}
+.review li span{
+	font-size: 4vw;/*14px*/
+	color: #5bafff;
+}
+.packup{
+	font-size: 3.4vw;/*12px*/
+	color: #acb187;
+	display: flex;
+	flex-direction: row;
+	align-item:center;
+}
+.packup i{
+	line-height: 9.7vw;/*34px*/
+}
+.content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom: 0.28vw solid #eee;/*1px*/
+	
+}
+.particular{
+	width: 70%;
+	margin-left: 10%;
+	margin-top: 3.5vw;
+}
+.reply{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+.reply li{
+	font-size: 3.4vw;/*12px*/
+	color: #80858c;
+	display: inline-flex;
+	margin-right: 5.7vw;/*20px*/
+}
+.reply li i{
+	font-size: 4.8vw;/*17px*/
+	margin-right: 1.14vw;/*4px*/
+}
+.link{
+	height: 14.85vw;/*52px*/
+	margin: 2.28vw 4.57vw 2.28vw 0;/*8px 16px 8px*/
+	background: #f7f7f7;
+	display: flex;
+	flex-direction: row;
+	align-item:center;
+}
+.linkImg{
+	width: 11.4vw;/*40px*/
+	height: 11.4vw;
+	margin: 1.7vw;/*6px*/
+}
+.link span{
+	font-size: 3.7vw;/*13px*/
+	color: #41454d;
+	line-height: 15.14vw;/*53px*/
+}
